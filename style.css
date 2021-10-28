@@ -1,8 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
 /* all the title */
 .custom-title{
     text-align: center;
@@ -16,13 +11,13 @@
 }
 
 .custom-title span{
-    color: rgb(161, 0, 32);
+    color: #f96304;
 }
 #button{
     width: 150px;
     height: 40px;
     border: none;
-    background-color: orange;
+    background-color: #f96304;
     border-radius: 10px;
     transition: 2s;
 }
@@ -40,7 +35,7 @@
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: orange;
+    background-color: #f96304;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -62,9 +57,10 @@
 
 /* navbar */
 .navbar-brand img{
-    height: 4rem;
-    width: 10rem;
+    height: 50px;
+    width: 200px;
     padding-top: 10px;
+    object-fit: cover;
 }
 .shoaping-icons{
     display: flex;
@@ -74,7 +70,7 @@
 .shoaping-icons i{
     cursor: pointer;
 }
-.shoaping-icons i:hover{color: tomato;}
+.shoaping-icons i:hover{color: #f96304;}
 #navbarSupportedContent{
     background-color: white;
     width: 100%;
@@ -105,7 +101,7 @@ nav.navbar{
 .navbar .navbar-nav li a:hover{
     outline: 1px solid var(--primary-color);
     background-color: var(--primary-color);
-    color: tomato !important;
+    color: #f96304 !important;
 }
 
 @media (max-width:991px){
@@ -116,7 +112,6 @@ nav.navbar{
         text-align: center;
         background-color: rgb(256, 256, 256);
         width: 100%;
-        /* height: 100%; */
     }
     .navbar .nav-link{
         line-height: 3.5rem;
@@ -125,9 +120,22 @@ nav.navbar{
         width: 100%;
         height: 100vh;
     }
+}
+.navbar-toggler{
+    border: none;
+    outline: none;
+}
+@media (max-width:670px){
+    .navbar-nav{
+       width: 100%;
+    }
+    .shoaping-icons{
+        width: 100%;
+        padding-left: 20px;
+    }
+    
 
 }
-
 
 /* header section */
 
@@ -159,7 +167,7 @@ nav.navbar{
     margin-left: -60px;
 }
 .sub-title span{
-    color: rgb(153, 0, 31);
+    color: #f96304;
 }
 #header2-content{
     display: flex;
@@ -168,7 +176,7 @@ nav.navbar{
     font-family: 'Poppins', sans-serif;
 }
 .slide-1-text{
-    color: orange;
+    color: #f96304;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
@@ -215,11 +223,12 @@ nav.navbar{
     margin-left: -60px;
 }
 .sub-title-3 span{
-    color: rgb(163, 0, 33);
+    color: #f96304;
 }
 .slide-3-text{
    float: right;
 }
+
 /* about us */
 
 #about-us{
@@ -241,6 +250,7 @@ nav.navbar{
     width: 100%;
     color: white;
 }
+
 
 /* customer section */
 .coustomer{
@@ -297,6 +307,7 @@ nav.navbar{
     z-index: 1;
 }
 
+
 /* products */
 #section{
     width: 100%;
@@ -323,7 +334,7 @@ nav.navbar{
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
-    border: solid 4px orange;
+    border: solid 4px #f96304;
     transition: .6s;
     position: relative;
 }
@@ -339,7 +350,7 @@ nav.navbar{
     position: absolute;
     bottom: 15px;
     transform: translateY(50%);
-    background-color: orange;
+    background-color: #f96304;
     border-radius: 40px;
     padding: 5px 0px;
     box-sizing: border-box;
@@ -376,6 +387,7 @@ nav.navbar{
     transition: height 0.5s;
 }
 
+
 @media only screen and (max-width: 580px) {
     .ll{
         height: 220px;
@@ -399,7 +411,6 @@ nav.navbar{
         font-size: 1.2rem;
     }
 }
-
 
 
 /* price list */
@@ -444,6 +455,7 @@ nav.navbar{
     line-height: 20px;
     font-size: 16px;
 }
+
 
 /* contact and footer */
 
@@ -507,9 +519,6 @@ nav.navbar{
     font-size: 15px;
     letter-spacing: 2px;
 }
-   
-
-
 
 @media (max-width:750px){
     .custom-title{
@@ -563,8 +572,15 @@ nav.navbar{
         color: white;
     }
     #top{
-        right: 120px;
         font-size: 14px;
+    }
+    .slide-img{
+        width: 200px;
+        height: 550px;
+        object-fit: cover;
+    }
+    .sub{
+        font-size: 50px;
     }
    
 
