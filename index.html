@@ -1,35 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 
-  <a href="https://css-tricks.com/aos-css-driven-scroll-animation-library/"></a>
-  <a href="https://github.com/michalsnik/aos"></a>
-  <a href="https://michalsnik.github.io/aos/"></a>
-
-  <script src="https://kit.fontawesome.com/ea94151992.js" crossorigin="anonymous"></script>
-  <!-- 
+    
+   
   
- -->
-
-  <title>Document</title>
+    <script src="https://kit.fontawesome.com/ea94151992.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-  <button id="top"> <i class="fas fa-hand-point-up"></i>Go top</button>
+
+    <button id="top"> <i class="fas fa-hand-point-up"></i>Go top</button>
 
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -64,7 +58,8 @@
       </div>
     </div>
   </nav>
-
+  
+  <!-- slider -->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -105,7 +100,7 @@
               <div class="col col-lg-6 d-flex justify-content-center align-items-center">
                 <div id="header2-content" class="col-10">
                   <div id="header2-content-details">
-                    <h1 class="sub-title">Chilled <span>Salmon</span></h1>
+                    <h1 class="sub-title sub">Chilled <span>Salmon</span></h1>
                     <div>
                       <h5><span class="slide-1-text">Country:</span> Sakhalin</h5>
                       <h5><span class="slide-1-text">Weight:</span> 5 kg</h5>
@@ -121,8 +116,6 @@
           </header>
         </div>
       </div>
-     
-      
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -134,18 +127,18 @@
     </a>
   </div>
 
-
-  <div id="about-us" class='container-fluid pt-3 pb-5' data-aos="fade-up">
+  <!-- about us section -->
+  <div id="about-us" class='container-fluid pt-3 pb-5'>
     <div class="container">
       <h1 class="text-center mt-3 custom-title">About <span class="text-danger">Us</span></h1>
       <span class="title-underline"><img src="images/Underline-2.png" alt=""></span>
       <div class="row mt-4 justify-content-lg-center align-content-center">
-        <div class="col-sm-12 col-md-6 mt-3 about-images" data-aos="fade-right">
+        <div class="col-sm-12 col-md-6 mt-3 about-images" >
           <img class="about-img"
             src="https://images.unsplash.com/photo-1551028150-64b9f398f678?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
             alt="">
         </div>
-        <div class=" col-sm-12 col-md-6 mt-5" data-aos="fade-left">
+        <div class=" col-sm-12 col-md-6 mt-5" >
           <p class="text-justify about-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
             nesciunt, dolorum
             deleniti aliquid hic totam eos fugit nihil nemo eaque nulla sequi praesentium vitae natus fuga cum libero
@@ -158,9 +151,10 @@
     </div>
   </div>
 
-  <!-- customer care section -->
-  <div class="coustomer" data-aos="fade-down" id="custom">
 
+  <!-- customer section -->
+  <!-- customer care section -->   
+  <div class="coustomer"  id="custom">
     <div class="shadow"></div>
     <div class="container">
 
@@ -174,7 +168,7 @@
 
       <div class="row">
         <dic class="col coustomer-col">
-          <div data-aos="flip-left">
+          <div>
             <img src="images/meat.png" alt="" />
             <h4>
               Only fresh <br />
@@ -183,7 +177,7 @@
           </div>
         </dic>
         <dic class="col coustomer-col">
-          <div data-aos="flip-left">
+          <div >
             <img src="images/box.png" alt="" />
             <h4>
               Convenient vacuum <br />
@@ -192,7 +186,7 @@
           </div>
         </dic>
         <dic class="col coustomer-col">
-          <div data-aos="flip-left">
+          <div>
             <img src="images/certificate (1).png" alt="" />
             <h4>
               International quality <br />
@@ -201,7 +195,7 @@
           </div>
         </dic>
         <dic class="col coustomer-col">
-          <div data-aos="flip-left">
+          <div>
             <img src="images/knife.png" alt="" />
             <h4>
               Professional <br />
@@ -213,12 +207,13 @@
     </div>
   </div>
 
+  <!-- our product -->
   <section id="section" >
     <div class="container conati">
       <h1 class="text-center custom-title">Our <span>PRODUCTS</span></h1>
       <span class="title-underline"><img src="images/Underline-2.png" alt=""></span>
       <div class="row align-items-center pt-4">
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="flip-left">
+        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox">
           <div class="rounds">
             <img src="images/71PdOGP4BDL._SL1500.png" alt="">
             <div class="before"></div>
@@ -227,7 +222,7 @@
             <div class="after"></div>
           </h2>
         </div>
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="flip-left">
+        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox">
           <div class="rounds">
             <img src="images/82477011_0_640x640.png" alt="">
             <div class="before"></div>
@@ -236,7 +231,7 @@
             <div class="after"></div>
           </h2>
         </div>
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="flip-left">
+        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" >
           <div class="rounds">
             <img src="images/goat-meat-mutton-chop-pieces-250gm.png" alt="">
             <div class="before"></div>
@@ -245,7 +240,7 @@
             <div class="after"></div>
           </h2>
         </div>
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="flip-left">
+        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" >
           <div class="rounds">
             <img src="images/mix-Boti-2.png" alt="">
             <div class="before"></div>
@@ -254,7 +249,7 @@
             <div class="after"></div>
           </h2>
         </div>
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="flip-left">
+        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox">
           <div class="rounds">
             <img src="images/Lamb-Chops1.png" alt="">
             <div class="before"></div>
@@ -263,7 +258,7 @@
             <div class="after"></div>
           </h2>
         </div>
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="flip-left">
+        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox">
           <div class="rounds">
             <img src="images/64278011_1_640x640.png" alt="">
             <div class="before"></div>
@@ -276,13 +271,14 @@
     </div>
   </section>
 
+  <!-- price section -->
 
   <!-- item price list section -->
   <div class="meat-bg" id="price">
     <div class="container">
       <h2 class="custom-title">Our <span>Price</span> List</h2>
       <span class="title-underline"><img src="images/Underline-2.png" alt=""></span>
-      <ul class="list-group" data-aos="fade-left">
+      <ul class="list-group">
         <li class="list-group-item d-flex justify-content-between align-items-center">
           <span class="badge badge-name">Goat Leg Whole</span>
           <span class="badge badge-danger badge-price">12.49/lb</span>
@@ -326,11 +322,13 @@
       </ul>
     </div>
   </div>
+
+
   <!-- contact section -->
   <div class="container">
     <section id="contact">
       <div class="row">
-        <div class="col-12 col-lg-6 justify-content-center" data-aos="fade-right">
+        <div class="col-12 col-lg-6 justify-content-center">
           <form id="contact-form" class="col-11 p-lg-2" action="">
             <h3 class="mx-auto custom-title mx-1">Send Message</h3>
             <input type="text" placeholder="Your name" class="contact-fields w-75">
@@ -339,7 +337,7 @@
             <button id="button">Submit</button>
           </form>
         </div>
-        <div class="col-12 col-lg-6 p-0 d-flex justify-content-center align-items-center" data-aos="fade-left">
+        <div class="col-12 col-lg-6 p-0 d-flex justify-content-center align-items-center">
           <div class="map-responsive">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509926.245470594!2d-123.80044634558443!3d37.18419568971259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2sin!4v1635251019935!5m2!1sen!2sin"
@@ -378,55 +376,10 @@
     </footer>
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-
-  <script>
-    AOS.init({
-      duration: 1000
-    });
-    $(document).ready(function () {
-      setInterval(() => (window.scrollY >= 500) ? $('#top').fadeIn('slow') : $('#top').fadeOut('slow'), 10);
-
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-
-      $('#top').click(topFunction)
-
-      $('.rounds').hover(function () {
-        $(this).css('border', 'solid 4px white')
-        $(this).children().css('transform', 'scale(1.25)')
-        $(this).children().eq(1).css('height', '100%')
-        $(this).next().css('color', 'orange')
-        $(this).next().children().css({ 'transform': 'scaleY(1)' })
-      }, function () {
-        $(this).css('border', 'solid 4px orange')
-        $(this).children().css('transform', 'scale(1)')
-        $(this).children().eq(1).css('height', '0%')
-        $(this).next().css('color', 'white')
-        $(this).next().children().css('transform', 'scaleY(0)')
-      })
-
-      $('.product-name').hover(function () {
-        $(this).prev().css('border', 'solid 4px white')
-        $(this).prev().children().css('transform', 'scale(1.25)')
-        $(this).prev().children().eq(1).css('height', '100%')
-        $(this).children().css('transform', 'scaleY(1)')
-        $(this).css('color', 'orange')
-      }, function () {
-        $(this).prev().css('border', 'solid 4px orange')
-        $(this).prev().children().css('transform', 'scale(1)')
-        $(this).prev().children().eq(1).css('height', '0%')
-        $(this).children().css('transform', 'scaleY(0)')
-        $(this).css('color', 'white')
-      })
-    })
-  </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
 </body>
-
 </html>
