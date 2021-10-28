@@ -20,6 +20,7 @@
     background-color: #f96304;
     border-radius: 10px;
     transition: 2s;
+    z-index: 1000;
 }
 #button:hover{
     background: black;
@@ -138,7 +139,9 @@ nav.navbar{
 }
 
 /* header section */
-
+.carousel-control-next{
+    z-index: 10000;
+}
 
 .slide-1{
     height: 600px;
@@ -228,6 +231,11 @@ nav.navbar{
 .slide-3-text{
    float: right;
 }
+.slide-1-t{
+    z-index: 1000;
+    position: relative;
+}
+
 
 /* about us */
 
@@ -564,12 +572,15 @@ nav.navbar{
     .sub-title-3{
         font-size: 40px;
         text-align: center;
+        color: #f8f8f8;
     }
     .sub-title-3 span{
-        color: white;
+        color: #f96304;
     }
     .slide-3 p{
-        color: white;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        letter-spacing: 1px;
     }
     #top{
         font-size: 14px;
@@ -580,7 +591,15 @@ nav.navbar{
         object-fit: cover;
     }
     .sub{
-        font-size: 50px;
+        font-size: 40px;
+        color: white;
+    }
+    .slide-1-t{
+        color: black;
+    }
+    .slide-1-p{
+        color: white;
+        font-weight: bold;
     }
    
 
