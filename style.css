@@ -144,7 +144,7 @@ nav.navbar{
 }
 
 .slide-1{
-    height: 600px;
+    height: 630px;
     background-color: white;
     position: relative;
 }
@@ -197,13 +197,12 @@ nav.navbar{
 
 
 .slide-2{
-    height: 600px;
-    background-image: url('./images/bg-44.jpg');
-    background-position: center;
+    height: 630px;
+    background-image: url('./images/bg66.jpg');
 }
 
 .slide-3{
-    height: 600px;
+    height: 630px;
     background-color: white;
     position: relative;
 }
@@ -601,6 +600,8 @@ nav.navbar{
         color: white;
         font-weight: bold;
     }
+    
+   
    
 
 }
