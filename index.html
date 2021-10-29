@@ -5,424 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <link rel="stylesheet" href="bower_components/aos/dist/aos.css">
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-
-    <script src="https://kit.fontawesome.com/ea94151992.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-
-    <button id="top"> <i class="fas fa-hand-point-up"></i>Go top</button>
-
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand" href="index.html"><img src="images/1-01.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-5 align-items-center">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about-us">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#section">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#price">Price List</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-       
-      </ul>
-      <div class="shoaping-icons">
-        <i class="fa fa-user mr-5 ml-3"></i>
-        <i class="fa fa-shopping-cart mr-5"></i>
-        <i class="fa fa-search mr-5"></i>
-      </div>
-    </div>
-  </nav>
-
-  
-  <!-- slider -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="shadow"></div>
-      <div class="carousel-item active">
-        <div class="slide-3">
-          <img src="images/gg.jpg" alt="" class="slide-img">
-          <header id="header2">
-            <div class="row justify-content-end">
-              <div class="col col-lg-6 d-flex justify-content-center align-items-center">
-                <div id="header2-content" class="col-10">
-                  <div id="header2-content-details">
-                    <h1 class="sub-title-3">Sea Shrimbs Extra<span class=""> Size</span></h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae at in nam vitae odio
-                      adipisci aliquam quo illo cupiditate ad.</p>
-                  </div>
-                  <button class="btn" id="button">Read more +</button>
-                </div>
-              </div>
-            </div>
-          </header>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="slide-2">
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="slide-1">
-          <img src="images/dd.jpg" alt="" class="slide-img">
-          <header id="header2">
-            <div class="row justify-content-end">
-              <div class="col col-lg-6 d-flex justify-content-center align-items-center">
-                <div id="header2-content" class="col-10">
-                  <div id="header2-content-details">
-                    <h1 class="sub-title sub">Chilled <span>Salmon</span></h1>
-                    <div>
-                      <h5 class="slide-1-t"><span class="slide-1-text">Country:</span> Sakhalin</h5>
-                      <h5 class="slide-1-t"><span class="slide-1-text">Weight:</span> 5 kg</h5>
-                      <h5 class="slide-1-t"><span class="slide-1-text">Calories:</span> 322 kkal</h5>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <div class="accordion" id="accord1">
+                    <button class="btn btn-link d-block" data-target="#collapse-1" data-toggle='collapse'>collapse group 1</button>
+                    <div class="collapse" id="collapse-1" data-parent='#accord1'>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe?
                     </div>
-                    <p class="slide-1-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae at in nam vitae odio
-                      adipisci aliquam quo illo cupiditate ad.</p>
-                  </div>
-                  <button class="btn" id="button">Read more +</button>
+
+                    <button class="btn btn-link d-block" data-target="#collapse-2" data-toggle="collapse">collapse group 2</button>
+                    <div class="collapse" id="collapse-2" data-parent='#accord1'>
+                        Lorem ipsum dolor sit amet.
+                    </div>
                 </div>
-              </div>
             </div>
-          </header>
+            <dic class="col-6">
+                <div class="accordion" id="accord2">
+                    <a href="#collapse1" class="d-block"data-toggle="collapse">collapsible1</a>
+                    <div class="collapse" id="collapse1">contant-1</div>
+                    <a href="#collapse2" class="d-block" data-toggle="collapse" >collapsible2</a>
+                    <div class="collapse" id="collapse2" data-target="#accord2">contant-1</div>
+                </div>
+            </dic>
         </div>
-      </div>
+        <div class="row mt-5">
+            <div class="col-6">
+                <div class="accordion" id="accord3">
+                    <button class="btn btn-link bg-secondary d-block w-100" data-target="#first-data" data-toggle="collapse">First Data</button>
+                    <div class="collapse bg-danger  p-2" id="first-data" data-parent="#accord3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, nam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, asperiores.</div>
+                    <button class="btn btn-link bg-secondary d-block w-100" data-target="#second-data" data-toggle="collapse">Second Data</button>
+                    <div class="collapse bg-danger p-2" id="second-data" data-parent="#accord3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, nam.</div>
+                </div>
+            </div>
+            <div class="col-6">
+                <ul class="accordion list-group list-group-flush" id="accord4">
+                    <li class="list-group-item bg-secondary pr-0 pl-0 ">
+                        <a href="#secondItem-1"  data-toggle="collapse" class="pl-5 text-light">click once</a>
+                        <div class="collapse bg-dark p-2 mt-3 text-light" id="secondItem-1" data-parent="#accord4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, nam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, accusantium ipsam cum ex aperiam culpa.</div>
+                    </li>
+                    <li class="list-group-item bg-secondary pl-0 pr-0 0">
+                        <a href="#secondItem-2"  data-toggle="collapse" class="pl-5 text-light">click two</a>
+                        <div class="collapse bg-dark p-2 text-light mt-3" id="secondItem-2" data-parent="#accord4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, nam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, accusantium ipsam cum ex aperiam culpa.</div>
+                    </li>
+                    <li class="list-group-item bg-secondary pl-0 pr-0 ">
+                        <a href="#secondItem-3"  data-toggle="collapse" class="pl-5 text-light">click three</a>
+                        <div class="collapse bg-dark p-2 text-light mt-3" id="secondItem-3" data-parent="#accord4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, nam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, accusantium ipsam cum ex aperiam culpa.</div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-
-  <!-- about us section -->
-  <div id="about-us" class='container-fluid pt-3 pb-5' >
-    <div class="container">
-      <h1 class="text-center mt-3 custom-title">About <span>Us</span></h1>
-      <span class="title-underline"><img src="images/Underline-2.png" alt=""></span>
-      <div class="row mt-4 justify-content-lg-center align-content-center">
-        <div class="col-sm-12 col-md-6 mt-3 about-images" >
-          <img class="about-img" data-aos="fade-right"
-            src="https://images.unsplash.com/photo-1551028150-64b9f398f678?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
-            alt="">
-        </div>
-        <div class=" col-sm-12 col-md-6 mt-5" data-aos="fade-up">
-          <p class="text-justify about-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            nesciunt, dolorum
-            deleniti aliquid hic totam eos fugit nihil nemo eaque nulla sequi praesentium vitae natus fuga cum libero
-            saepe incidunt.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officiis rerum fuga perspiciatis sint
-          </p>
-          <button class="btn" id="button">More details</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- customer section -->
-  <!-- customer care section -->   
-  <div class="coustomer"  id="custom">
-    <div class="shadow"></div>
-    <div class="container">
-
-      <h1 class="custom-title"> our <span>Process</span></h1>
-      <span class="title-underline"><img src="images/Underline-2.png" alt=""></span>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos expedita
-        culpa adipisci dolorem teneturdiv.ro! Iste, nisi ipsa. Nemo, numquam
-        excepturi!
-      </p>
-
-      <div class="row">
-        <dic class="col coustomer-col">
-          <div data-aos="flip-left">
-            <img src="images/meat.png" alt="" />
-            <h4>
-              Only fresh <br />
-              products
-            </h4>
-          </div>
-        </dic>
-        <dic class="col coustomer-col">
-          <div data-aos="flip-left">
-            <img src="images/box.png" alt="" />
-            <h4>
-              Convenient vacuum <br />
-              packaging
-            </h4>
-          </div>
-        </dic>
-        <dic class="col coustomer-col">
-          <div data-aos="flip-left">
-            <img src="images/certificate (1).png" alt="" />
-            <h4>
-              International quality <br />
-              certificates
-            </h4>
-          </div>
-        </dic>
-        <dic class="col coustomer-col">
-          <div data-aos="flip-left">
-            <img src="images/knife.png" alt="" />
-            <h4>
-              Professional <br />
-              meat filleting
-            </h4>
-          </div>
-        </dic>
-      </div>
-    </div>
-  </div>
-
-  <!-- our product -->
-  <section id="section" >
-    <div class="container conati">
-      <h1 class="text-center custom-title">Our <span>PRODUCTS</span></h1>
-      <span class="title-underline"><img src="images/Underline-2.png" alt=""></span>
-      <div class="row align-items-center pt-4">
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="zoom-in">
-          <div class="rounds">
-            <img src="images/71PdOGP4BDL._SL1500.png" alt="">
-            <div class="before"></div>
-          </div>
-          <h2 class="product-name hvr-sweep-to-top">CHICKEN BREAST
-            <div class="after"></div>
-          </h2>
-        </div>
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="zoom-in">
-          <div class="rounds">
-            <img src="images/82477011_0_640x640.png" alt="">
-            <div class="before"></div>
-          </div>
-          <h2 class="product-name hvr-sweep-to-top ">BONLESS CHICKEN
-            <div class="after"></div>
-          </h2>
-        </div>
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="zoom-in">
-          <div class="rounds">
-            <img src="images/goat-meat-mutton-chop-pieces-250gm.png" alt="">
-            <div class="before"></div>
-          </div>
-          <h2 class="product-name hvr-sweep-to-top">GOAT MEAT
-            <div class="after"></div>
-          </h2>
-        </div>
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="zoom-in">
-          <div class="rounds">
-            <img src="images/mix-Boti-2.png" alt="">
-            <div class="before"></div>
-          </div>
-          <h2 class="product-name hvr-sweep-to-top">LAMB
-            <div class="after"></div>
-          </h2>
-        </div>
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="zoom-in">
-          <div class="rounds">
-            <img src="images/Lamb-Chops1.png" alt="">
-            <div class="before"></div>
-          </div>
-          <h2 class="product-name hvr-sweep-to-top">ALL CUT LAMB
-            <div class="after"></div>
-          </h2>
-        </div>
-        <div class=" mb-4 col-xs-12 col-sm-12 col-md-6 col-lg-4  roundsbox" data-aos="zoom-in">
-          <div class="rounds">
-            <img src="images/64278011_1_640x640.png" alt="">
-            <div class="before"></div>
-          </div>
-          <h2 class="product-name hvr-sweep-to-top">CHICKEN
-            <div class="after"></div>
-          </h2>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- price section -->
-
-  <!-- item price list section -->
-  <div class="meat-bg" id="price">
-    <div class="container">
-      <h2 class="custom-title">Our <span>Price</span> List</h2>
-      <span class="title-underline"><img src="images/Underline-2.png" alt=""></span>
-      <ul class="list-group" data-aos="fade-right">
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Goat Leg Whole</span>
-          <span class="badge badge-danger badge-price">12.49/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Goat Chops</span>
-          <span class="badge badge-danger badge-price">12.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Goat Cut Pieces</span>
-          <span class="badge badge-danger badge-price">11.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Goat Paya</span>
-          <span class="badge badge-danger badge-price">5.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Ground Goat-Kheema</span>
-          <span class="badge badge-danger badge-price">12.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Whole Chicken </span>
-          <span class="badge badge-danger badge-price">3.49/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Whole Chicken Organic </span>
-          <span class="badge badge-danger badge-price">4.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Country Chicken Whole </span>
-          <span class="badge badge-danger badge-price">6.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Chicken Leg Quarters</span>
-          <span class="badge badge-danger badge-price">2.49/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Chicken Breast (Halal)</span>
-          <span class="badge badge-danger badge-price">3.99/lb</span>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-
-  <!-- contact section -->
-  <div class="container">
-    <section id="contact">
-      <div class="row">
-        <div class="col-12 col-lg-6 justify-content-center">
-          <form id="contact-form" class="col-11 p-lg-2" action="" data-aos="fade-right">
-            <h3 class="mx-auto custom-title mx-1">Send Message</h3>
-            <input type="text" placeholder="Your name" class="contact-fields w-75">
-            <input type="mail" placeholder="Your email" class="contact-fields w-75">
-            <textarea name="" id="" cols="30" rows="4" placeholder="Message" class="contact-fields w-100"></textarea>
-            <button id="button">Submit</button>
-          </form>
-        </div>
-        <div class="col-12 col-lg-6 p-0 d-flex justify-content-center align-items-center">
-          <div class="map-responsive" data-aos="zoom-in">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509926.245470594!2d-123.80044634558443!3d37.18419568971259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2sin!4v1635251019935!5m2!1sen!2sin"
-              width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-
-  </div>
-  <div class="container-fluid">
-    <footer class="p-0">
-      <div class="row">
-        <div class="col-12 p-0 footer">
-          <img src="images/1-01.png" alt="" class="col-6 col-sm-5 col-md-4 col-lg-3 d-block mx-auto">
-          <div class="col-11 col-lg-10 mx-auto text-center text-light">
-            <h5 class="text-warning">Fresh Meat of Chicken,Goat and Lamb Available at Our Store</h5>
-            <h4 class="contact-number">Contact : 669-235-5800</h4>
-            <h6 class="contact-address">Address : 81 South Main Street, Next to KFC, Milpitas, California-95035</h6>
-          </div>
-          <div id="footer-socialmedia" class="d-flex justify-content-center">
-            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
-          </div>
-          <h6 id="footer-footer" class="p-4 m-0 text-center text-lg-left">
-            <span class="text-warning">TAJA MART</span>
-            <i class="fa fa-copyright" aria-hidden="true"></i>
-            All Rights Reserved-2021
-          </h6>
-
-        </div>
-      </div>
-    </footer>
-  </div>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="bower_components/aos/dist/aos.js"></script>
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script>
-    AOS.init({
-        duration: 1000
-      });
-      $(document).ready(function () {
-        setInterval(() => (window.scrollY >= 500) ? $('#top').fadeIn('slow') : $('#top').fadeOut('slow'), 10);
-  
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
-  
-        $('#top').click(topFunction)
-  
-        $('.rounds').hover(function () {
-          $(this).css('border', 'solid 4px white')
-          $(this).children().css('transform', 'scale(1.25)')
-          $(this).children().eq(1).css('height', '100%')
-          $(this).next().css('color', '#f96304')
-          $(this).next().children().css({ 'transform': 'scaleY(1)' })
-        }, function () {
-          $(this).css('border', 'solid 4px #f96304')
-          $(this).children().css('transform', 'scale(1)')
-          $(this).children().eq(1).css('height', '0%')
-          $(this).next().css('color', 'white')
-          $(this).next().children().css('transform', 'scaleY(0)')
-        })
-  
-        $('.product-name').hover(function () {
-          $(this).prev().css('border', 'solid 4px white')
-          $(this).prev().children().css('transform', 'scale(1.25)')
-          $(this).prev().children().eq(1).css('height', '100%')
-          $(this).children().css('transform', 'scaleY(1)')
-          $(this).css('color', '#f96304')
-        }, function () {
-          $(this).prev().css('border', 'solid 4px orange')
-          $(this).prev().children().css('transform', 'scale(1)')
-          $(this).prev().children().eq(1).css('height', '0%')
-          $(this).children().css('transform', 'scaleY(0)')
-          $(this).css('color', 'white')
-        })
-      })
-    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
