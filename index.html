@@ -25,7 +25,7 @@
     <button id="top"> <i class="fas fa-hand-point-up"></i>Go top</button>
 
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white ">
     <a class="navbar-brand" href="index.html"><img src="images/1-01.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -50,16 +50,12 @@
         </li>
        
       </ul>
-      <div class="shoaping-icons">
-        <i class="fa fa-user mr-5 ml-3"></i>
-        <i class="fa fa-shopping-cart mr-5"></i>
-        <i class="fa fa-search mr-5"></i>
-      </div>
     </div>
   </nav>
 
   
-  <!-- slider -->
+ <div id="section-s">
+    <!-- slider -->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -74,13 +70,11 @@
           <header id="header2">
             <div class="row justify-content-end">
               <div class="col col-lg-6 d-flex justify-content-center align-items-center">
-                <div id="header2-content" class="col-10">
+                <div id="header2-content " class="col-10 header-content">
                   <div id="header2-content-details">
-                    <h1 class="sub-title-3">Sea Shrimbs Extra<span class=""> Size</span></h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae at in nam vitae odio
-                      adipisci aliquam quo illo cupiditate ad.</p>
+                    <h1 class="sub-title-3">Locally Grown Fresh<span class=""> meat</span></h1>
                   </div>
-                  <button class="btn" id="button">Read more +</button>
+                  <button class="btn slide-btn" id="button"><a href="#about-us">Read more +</a></button>
                 </div>
               </div>
             </div>
@@ -98,17 +92,14 @@
             <div class="row justify-content-end">
               <div class="col col-lg-6 d-flex justify-content-center align-items-center">
                 <div id="header2-content" class="col-10">
-                  <div id="header2-content-details">
-                    <h1 class="sub-title sub">Chilled <span>Salmon</span></h1>
-                    <div>
-                      <h5 class="slide-1-t"><span class="slide-1-text">Country:</span> Sakhalin</h5>
-                      <h5 class="slide-1-t"><span class="slide-1-text">Weight:</span> 5 kg</h5>
-                      <h5 class="slide-1-t"><span class="slide-1-text">Calories:</span> 322 kkal</h5>
+                  <div id="header2-content-details" class="header-content header-content-1">
+                    <div class="sub-title sub"><h2 class="sub-h2">Finest Store For </h2>
+                                              <span class="sub-span">Halal Meat</span>
+                                              <h2 class="sub-h2">On Best Price</h2>
                     </div>
-                    <p class="slide-1-p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae at in nam vitae odio
-                      adipisci aliquam quo illo cupiditate ad.</p>
+                    <button class="btn" id="button">Read more +</button>
                   </div>
-                  <button class="btn" id="button">Read more +</button>
+                  
                 </div>
               </div>
             </div>
@@ -138,13 +129,19 @@
             alt="">
         </div>
         <div class=" col-sm-12 col-md-6 mt-5" data-aos="fade-up">
-          <p class="text-justify about-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            nesciunt, dolorum
-            deleniti aliquid hic totam eos fugit nihil nemo eaque nulla sequi praesentium vitae natus fuga cum libero
-            saepe incidunt.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem officiis rerum fuga perspiciatis sint
+          <p class="text-justify about-para">Our passion is providing the highest quality of products to ensure only the best
+            tasting meat and poultry end up on your plate. We offer of a large range of both traditional and
+            American contemporary cuts of lamb, goat and poultry. We provide different types of the high-
+            quality cuts of meats both over the counter for the general public and wholesale to over different
+            local restaurants and delicatessens.
           </p>
-          <button class="btn" id="button">More details</button>
+          <p id="moreAbout">
+            We are one of the top free-range butchers in Milpitas. Our ready-to-cook range is a significant facet
+            of our business. Each one of our home-style recipe meals are made in our kitchen, by hand with
+            gourmet meats daily. All our professional butchers maintain the highest sanitation standards and
+            procedures.
+          </p>
+          <button class="btn-more" id="button">More details</button>
         </div>
       </div>
     </div>
@@ -159,10 +156,10 @@
 
       <h1 class="custom-title"> our <span>Process</span></h1>
       <span class="title-underline"><img src="images/Underline-2.png" alt=""></span>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos expedita
-        culpa adipisci dolorem teneturdiv.ro! Iste, nisi ipsa. Nemo, numquam
-        excepturi!
+      <p id="ourproces-p">
+        Our dedicated food safety team scrutinizes every aspect of our operations to make
+        sure we meet local and provincial standards, from how meat is received and stored, to
+        preparation and delivery.
       </p>
 
       <div class="row">
@@ -277,48 +274,52 @@
     <div class="container">
       <h2 class="custom-title">Our <span>Price</span> List</h2>
       <span class="title-underline"><img src="images/Underline-2.png" alt=""></span>
-      <ul class="list-group" data-aos="fade-right">
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Goat Leg Whole</span>
-          <span class="badge badge-danger badge-price">12.49/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Goat Chops</span>
-          <span class="badge badge-danger badge-price">12.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Goat Cut Pieces</span>
-          <span class="badge badge-danger badge-price">11.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Goat Paya</span>
-          <span class="badge badge-danger badge-price">5.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Ground Goat-Kheema</span>
-          <span class="badge badge-danger badge-price">12.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Whole Chicken </span>
-          <span class="badge badge-danger badge-price">3.49/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Whole Chicken Organic </span>
-          <span class="badge badge-danger badge-price">4.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Country Chicken Whole </span>
-          <span class="badge badge-danger badge-price">6.99/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Chicken Leg Quarters</span>
-          <span class="badge badge-danger badge-price">2.49/lb</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-          <span class="badge badge-name">Chicken Breast (Halal)</span>
-          <span class="badge badge-danger badge-price">3.99/lb</span>
-        </li>
-      </ul>
+      <div class="container list-group-container">
+        <ul class="list-group" data-aos="fade-up">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="badge badge-name">Goat Leg Whole</span>
+            <span class="badge badge-danger badge-price">12.49/lb</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="badge badge-name">Goat Chops</span>
+            <span class="badge badge-danger badge-price">12.99/lb</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="badge badge-name">Goat Cut Pieces</span>
+            <span class="badge badge-danger badge-price">11.99/lb</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="badge badge-name">Goat Paya</span>
+            <span class="badge badge-danger badge-price">5.99/lb</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="badge badge-name">Ground Goat-Kheema</span>
+            <span class="badge badge-danger badge-price">12.99/lb</span>
+          </li>
+        </ul>
+        <ul class="list-group" data-aos="fade-up">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="badge badge-name">Whole Chicken </span>
+            <span class="badge badge-danger badge-price">3.49/lb</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="badge badge-name">Whole Chicken Organic </span>
+            <span class="badge badge-danger badge-price">4.99/lb</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="badge badge-name">Country Chicken Whole </span>
+            <span class="badge badge-danger badge-price">6.99/lb</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="badge badge-name">Chicken Leg Quarters</span>
+            <span class="badge badge-danger badge-price">2.49/lb</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span class="badge badge-name">Chicken Breast (Halal)</span>
+            <span class="badge badge-danger badge-price">3.99/lb</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -374,6 +375,7 @@
       </div>
     </footer>
   </div>
+ </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -421,6 +423,16 @@
           $(this).prev().children().eq(1).css('height', '0%')
           $(this).children().css('transform', 'scaleY(0)')
           $(this).css('color', 'white')
+        })
+        
+        $('#moreAbout').hide()
+        $('.btn-more').on('click',function(){
+          $('#moreAbout').slideToggle('slow')
+        })
+
+        $('.navbar-toggler-icon').on('click',function(){
+          $('#section-s').fadeToggle();
+          $('.container-fluid').fadeToggle()
         })
       })
     </script>
