@@ -434,7 +434,14 @@
 
         $('.navbar-toggler-icon').on('click',function(){
           $('#section-s').fadeToggle();
-          $('.container-fluid').fadeToggle()
+          $('.container-fluid').fadeToggle();
+          $('.navbar-collapse').fadeToggle()
+        })
+
+        $('.nav-link').on('click',function(){
+          $('.navbar-collapse').hide();
+          $('#section-s').show();
+          $('.container-fluid').show();
         })
       })
     </script>
