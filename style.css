@@ -685,10 +685,6 @@ nav.navbar{
     .slide-1{
         height: 700px;
     }
-    .coustomer{
-        object-fit: cover;
-        background: url("./images/dl.beatsnoop.com-1635486006.jpg")no-repeat center;
-    }
     .navbar-brand img{
         height: 40px;
         width: 160px;
@@ -702,6 +698,11 @@ nav.navbar{
         z-index: 1000;
         position: relative;
         margin-left: -10%;
+    }
+    .slider-2-title{
+        padding-top: 50px;
+        font-size: 40px;
+        margin-left: -35%;
     }
    
 
@@ -724,14 +725,33 @@ nav.navbar{
        
     }
     .slider-2-title{
-        padding-top: 50px;
+        padding-top: 70px;
         font-size: 35px;
-        margin-left: -60%;
+        margin-left: -45%;
+    }
+}
+@media (max-width:405px){
+    .slider-2-title{
+        text-align: center;
+        width: 100%;
+        font-size: 40px;
+        margin-left: -24%;
+    }
+}
+@media (max-width:360px){
+    .slider-2-title{
+        text-align: center;
+        width: 100%;
+        font-size: 40px;
+        margin-left: -24%;
     }
 }
 @media (max-width:330px){
     .slider-2-title{
-        font-size: 30px;
-        margin-left: -73%;
+        text-align: center;
+        width: 100%;
+       
+        font-size: 40px;
+        margin-left: -34%;
     }
 }
