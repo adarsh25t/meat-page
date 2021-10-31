@@ -694,14 +694,14 @@ nav.navbar{
         width: 160px;
     }
     .slider-2-title{
-        padding-top: 50px;
+        padding-top: 100px;
         font-family: 'Poppins', sans-serif;
         color: white;
-        font-size: 30px;
+        font-size: 50px;
         font-weight: 700;
         z-index: 1000;
         position: relative;
-        margin-left: -60%;
+        margin-left: -10%;
     }
    
 
