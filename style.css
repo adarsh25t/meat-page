@@ -528,30 +528,13 @@ nav.navbar{
 
 /* contact and footer */
 
-#contact .col-12{
+#contact{
     height: 500px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding-bottom: 30px;
 }
-#contact-form{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px 50px;
-    box-sizing: border-box;
-}
-.contact-fields{
-    padding: 15px;
-    border-radius: 13px;
-    border: 1px solid grey;
-}
-
-.mx-1{
-    color: black;
-    position: relative;
-}
-
 
 
 .footer{
@@ -729,6 +712,7 @@ nav.navbar{
         font-size: 35px;
         margin-left: -45%;
     }
+    
 }
 @media (max-width:405px){
     .slider-2-title{
